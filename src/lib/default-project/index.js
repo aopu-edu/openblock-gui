@@ -3,9 +3,10 @@ import projectData from './project-data';
 /* eslint-disable import/no-unresolved */
 import popWav from '!arraybuffer-loader!./83a9787d4cb6f3b7632b4ddfebf74367.wav';
 import meowWav from '!arraybuffer-loader!./4e080acae1c3dc65eef30f07c2b0d4a5.wav';
-import backdrop from '!raw-loader!./cd21514d0531fdffb22204e0ec5ed84a.svg';
-import costume1 from '!raw-loader!./5de48e72637db4d7fc7f6bb526354114.svg';
-import costume2 from '!raw-loader!./48bbc82a10af3d0e0b7d5c677097df0e.svg';
+import backdrop from '!raw-loader!./dad3ab462b517d092482731eb9525b0f.svg';
+import backdrop2 from '!raw-loader!./cd21514d0531fdffb22204e0ec5ed84a.svg';
+import costume1 from '!raw-loader!./11aa38d20d71570ac819c5e7484da955.svg';
+import costume2 from '!raw-loader!./119d9ef551b858fbd3e86b5a3c272325.svg';
 /* eslint-enable import/no-unresolved */
 
 const defaultProject = translator => {
@@ -35,17 +36,22 @@ const defaultProject = translator => {
         dataFormat: 'WAV',
         data: new Uint8Array(meowWav)
     }, {
-        id: 'cd21514d0531fdffb22204e0ec5ed84a',
+        id: 'dad3ab462b517d092482731eb9525b0f',
         assetType: 'ImageVector',
         dataFormat: 'SVG',
         data: encoder.encode(backdrop)
     }, {
-        id: '5de48e72637db4d7fc7f6bb526354114',
+        id: 'cd21514d0531fdffb22204e0ec5ed84a',
+        assetType: 'ImageVector',
+        dataFormat: 'SVG',
+        data: encoder.encode(backdrop2)
+    }, {
+        id: '11aa38d20d71570ac819c5e7484da955',
         assetType: 'ImageVector',
         dataFormat: 'SVG',
         data: encoder.encode(costume1)
     }, {
-        id: '48bbc82a10af3d0e0b7d5c677097df0e',
+        id: '119d9ef551b858fbd3e86b5a3c272325',
         assetType: 'ImageVector',
         dataFormat: 'SVG',
         data: encoder.encode(costume2)

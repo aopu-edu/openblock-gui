@@ -38,9 +38,9 @@ const projectData = translateFunction => {
                 currentCostume: 0,
                 costumes: [
                     {
-                        assetId: 'cd21514d0531fdffb22204e0ec5ed84a',
+                        assetId: 'dad3ab462b517d092482731eb9525b0f',
                         name: translator(messages.backdrop, {index: 1}),
-                        md5ext: 'cd21514d0531fdffb22204e0ec5ed84a.svg',
+                        md5ext: 'dad3ab462b517d092482731eb9525b0f.svg',
                         dataFormat: 'svg',
                         rotationCenterX: 240,
                         rotationCenterY: 180
@@ -69,19 +69,19 @@ const projectData = translateFunction => {
                 currentCostume: 0,
                 costumes: [
                     {
-                        assetId: '5de48e72637db4d7fc7f6bb526354114',
+                        assetId: '11aa38d20d71570ac819c5e7484da955',
                         name: translator(messages.costume, {index: 1}),
                         bitmapResolution: 1,
-                        md5ext: '5de48e72637db4d7fc7f6bb526354114.svg',
+                        md5ext: '11aa38d20d71570ac819c5e7484da955.svg',
                         dataFormat: 'svg',
                         rotationCenterX: 48,
                         rotationCenterY: 50
                     },
                     {
-                        assetId: '48bbc82a10af3d0e0b7d5c677097df0e',
+                        assetId: '119d9ef551b858fbd3e86b5a3c272325',
                         name: translator(messages.costume, {index: 2}),
                         bitmapResolution: 1,
-                        md5ext: '48bbc82a10af3d0e0b7d5c677097df0e.svg',
+                        md5ext: '119d9ef551b858fbd3e86b5a3c272325.svg',
                         dataFormat: 'svg',
                         rotationCenterX: 46,
                         rotationCenterY: 53

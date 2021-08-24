@@ -76,7 +76,7 @@ const StageHeaderComponent = function (props) {
                     target="_blank"
                 >
                     <img
-                        alt="OpenBlock"
+                        alt="MircoAI"
                         src={scratchLogo}
                     />
                 </a>

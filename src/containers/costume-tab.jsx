@@ -163,7 +163,7 @@ class CostumeTab extends React.Component {
     }
     handleNewBlankCostume () {
         const name = this.props.vm.editingTarget.isStage ?
-            this.props.intl.formatMessage(messages.backdrop, {index: 1}) :
+            this.props.intl.formatMessage(messages.backdrop2, {index: 1}) :
             this.props.intl.formatMessage(messages.costume, {index: 1});
         this.handleNewCostume(emptyCostume(name));
     }
